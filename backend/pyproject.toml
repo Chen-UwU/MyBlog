@@ -5,7 +5,10 @@ description = ""
 authors = [
     {name = "Chen_UwU", email = "Chen_OwO@outlook.com"},
 ]
-dependencies = []
+dependencies = [
+    "fastapi>=0.101.0",
+    "uvicorn[standard]>=0.23.2",
+]
 requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}
